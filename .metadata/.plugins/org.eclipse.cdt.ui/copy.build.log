@@ -1,0 +1,30 @@
+05:42:07 **** Build of configuration Debug for project copy ****
+make all 
+Building file: ../alt_functions.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"alt_functions.d" -MT"alt_functions.o" -o "alt_functions.o" "../alt_functions.c"
+Finished building: ../alt_functions.c
+ 
+Building file: ../copy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"copy.d" -MT"copy.o" -o "copy.o" "../copy.c"
+Finished building: ../copy.c
+ 
+Building file: ../error_functions.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"error_functions.d" -MT"error_functions.o" -o "error_functions.o" "../error_functions.c"
+Finished building: ../error_functions.c
+ 
+Building file: ../get_num.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"get_num.d" -MT"get_num.o" -o "get_num.o" "../get_num.c"
+Finished building: ../get_num.c
+ 
+Building target: copy
+Invoking: GCC C Linker
+gcc  -o "copy"  ./alt_functions.o ./copy.o ./error_functions.o ./get_num.o   
+Finished building target: copy
+ 
+
+05:42:09 Build Finished (took 2s.35ms)
+

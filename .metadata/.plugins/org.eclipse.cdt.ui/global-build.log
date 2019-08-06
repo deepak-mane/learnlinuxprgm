@@ -1,0 +1,108 @@
+18:32:31 **** Incremental Build of configuration Release for project TEST ****
+make all 
+Building file: ../src/TEST.cpp
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TEST.d" -MT"src/TEST.o" -o "src/TEST.o" "../src/TEST.cpp"
+Finished building: ../src/TEST.cpp
+ 
+Building target: TEST
+Invoking: GCC C++ Linker
+g++  -o "TEST"  ./src/TEST.o   
+Finished building target: TEST
+ 
+
+18:32:33 Build Finished (took 1s.453ms)
+
+18:32:33 **** Incremental Build of configuration Debug for project TEST ****
+make all 
+make: Nothing to be done for 'all'.
+18:33:18 **** Incremental Build of configuration Debug for project TEST ****
+make all 
+make: Nothing to be done for 'all'.
+18:33:24 **** Incremental Build of configuration Debug for project TEST ****
+make all 
+make: Nothing to be done for 'all'.
+18:34:23 **** Incremental Build of configuration Debug for project HelloWC ****
+make all 
+make: Nothing to be done for 'all'.
+18:34:24 **** Incremental Build of configuration Debug for project HelloWorldC ****
+make all 
+make: Nothing to be done for 'all'.
+18:34:25 **** Incremental Build of configuration Debug for project HelloWorldCplus ****
+make all 
+make: Nothing to be done for 'all'.
+18:34:26 **** Incremental Build of configuration Debug for project TEST ****
+make all 
+make: Nothing to be done for 'all'.
+18:34:26 **** Build of configuration Debug for project TEST1 ****
+make all 
+Building file: ../src/TEST1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TEST1.d" -MT"src/TEST1.o" -o "src/TEST1.o" "../src/TEST1.cpp"
+Finished building: ../src/TEST1.cpp
+ 
+Building target: TEST1
+Invoking: GCC C++ Linker
+g++  -o "TEST1"  ./src/TEST1.o   
+Finished building target: TEST1
+ 
+18:36:38 **** Incremental Build of configuration Debug for project TEST ****
+make all 
+make: Nothing to be done for 'all'.
+18:37:24 **** Build of configuration Debug for project HELLOW ****
+make all 
+Building file: ../src/HELLOW.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HELLOW.d" -MT"src/HELLOW.o" -o "src/HELLOW.o" "../src/HELLOW.cpp"
+Finished building: ../src/HELLOW.cpp
+ 
+Building target: HELLOW
+Invoking: GCC C++ Linker
+g++  -o "HELLOW"  ./src/HELLOW.o   
+Finished building target: HELLOW
+ 
+18:37:25 **** Incremental Build of configuration Debug for project HelloWC ****
+make all 
+make: Nothing to be done for 'all'.
+18:37:26 **** Incremental Build of configuration Debug for project HelloWorldC ****
+make all 
+make: Nothing to be done for 'all'.
+18:37:26 **** Incremental Build of configuration Debug for project HelloWorldCplus ****
+make all 
+make: Nothing to be done for 'all'.
+18:37:27 **** Incremental Build of configuration Debug for project TEST ****
+make all 
+make: Nothing to be done for 'all'.
+18:37:27 **** Incremental Build of configuration Debug for project TEST1 ****
+make all 
+make: Nothing to be done for 'all'.
+18:38:12 **** Incremental Build of configuration Debug for project HELLOW ****
+make all 
+make: Nothing to be done for 'all'.
+05:42:07 **** Build of configuration Debug for project copy ****
+make all 
+Building file: ../alt_functions.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"alt_functions.d" -MT"alt_functions.o" -o "alt_functions.o" "../alt_functions.c"
+Finished building: ../alt_functions.c
+ 
+Building file: ../copy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"copy.d" -MT"copy.o" -o "copy.o" "../copy.c"
+Finished building: ../copy.c
+ 
+Building file: ../error_functions.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"error_functions.d" -MT"error_functions.o" -o "error_functions.o" "../error_functions.c"
+Finished building: ../error_functions.c
+ 
+Building file: ../get_num.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"get_num.d" -MT"get_num.o" -o "get_num.o" "../get_num.c"
+Finished building: ../get_num.c
+ 
+Building target: copy
+Invoking: GCC C Linker
+gcc  -o "copy"  ./alt_functions.o ./copy.o ./error_functions.o ./get_num.o   
+Finished building target: copy
+ 
